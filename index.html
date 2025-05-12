@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 𝝺PP Service Announcements</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <meta name="description" content="Latest service announcements and updates for PredictProtein">
+</head>
+<body class="bg-gray-50 min-h-screen">
+    <!-- Banner -->
+    <div class="flex flex-row bg-linear-to-r from-gray-50 to-gray-300 shadow-xl/20 items-center gap-4">
+        <span class="max-h-10 basis-1/4 md:ml-10">𝗟amdba 𝗣redict 𝗣rotein (𝞴𝗣𝗣)</span>
+        <div class="flex flex-col basis-1/2 justify-center items-center gap-1 grow">
+            <h1 class="text-2xl font-bold text-gray-900 w-fit">Service Announcements</h1>
+            <span class="text-sm w-fit">Current Status and Important Updates</span>
+        </div>
+        <img src="./rl-logo.png" alt="Lab logo" class="object-contain object-right max-h-10 basis-1/4 md:mr-10">
+    </div>
+
+    <!-- Main Content -->
+    <div class="max-w-4xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+        <!-- Announcements List -->
+        <div class="space-y-8">
+            <!-- Single Announcement -->
+            <article class="bg-white rounded-lg shadow-md p-6 border-l-4 border-red-500">
+                <!-- Date -->
+                <div class="text-sm text-gray-500 mb-2">
+                    <time datetime="2025-05-12">May 12, 2025</time>
+                </div>
+                
+                <!-- Title -->
+                <h2 class="text-xl font-bold text-gray-900 mb-4">Important Notice: λPP Currently Unavailable due to Bioembeddings EOS</h2>
+                
+                <!-- Content -->
+                <div class="prose prose-gray max-w-none">
+                    <p class="mb-4">Due to the bioembeddings end of support (EOS), LambdaPP's backend is currently defunct. We are actively working on a replacement infrastructure and estimate the service to be online by <strong>September 2025</strong>. We apologize for the inconvenience this downtime causes.</p>
+                    
+                    <ul class="list-disc pl-6 mb-4 space-y-2">
+                        <li><strong>For textual predictions:</strong> Please see the PGP GitHub repository: <a href="https://github.com/hefeda/PGP" class="text-blue-600 hover:text-blue-800 underline" target="_blank">https://github.com/hefeda/PGP</a> to reproduce backend predictions.</li>
+                        <li><strong>Get involved:</strong> Check out the codebase at <a href="https://github.com/Rostlab/LambdaPP" class="text-blue-600 hover:text-blue-800 underline" target="_blank">https://github.com/Rostlab/LambdaPP</a></li>
+                        <li><strong>Details on the Tool:</strong> <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/pro.4524" class="text-blue-600 hover:text-blue-800 underline" target="_blank">https://onlinelibrary.wiley.com/doi/full/10.1002/pro.4524</a></li>
+                    </ul>
+                    
+                    <p>We will post further updates on this page as they become available. Thank you for your patience.</p>
+                </div>
+            </article>
+
+            <!-- Template for future announcements (commented out) -->
+            <!--
+            <article class="bg-white rounded-lg shadow-md p-6 border-l-4 border-yellow-500">
+                <div class="text-sm text-gray-500 mb-2">
+                    <time datetime="YYYY-MM-DD">Date</time>
+                </div>
+                <h2 class="text-xl font-bold text-gray-900 mb-4">Announcement Title</h2>
+                <div class="prose prose-gray max-w-none">
+                    <p>Announcement content...</p>
+                </div>
+            </article>
+            -->
+        </div>
+
+        <!-- Footer -->
+        <div class="mt-12 text-center text-sm text-gray-500">
+            <p>For questions or to get involved with the development, please contact <a href="mailto:lambda@rostlab.org" class="text-blue-600 hover:text-blue-800 underline">lambda@rostlab.org</a></p>
+        </div>
+    </div>
+</body>
+</html>
